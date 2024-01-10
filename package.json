@@ -1,6 +1,7 @@
 {
   "name": "coplan-beta",
   "version": "0.1.0",
+  "type": "module",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -8,7 +9,17 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "autoprefixer": "^10.4.16",
     "core-js": "^3.8.3",
+    "express": "^4.18.2",
+    "passport": "^0.7.0",
+    "passport-github": "^1.1.0",
+    "passport-google-oauth20": "^2.0.0",
+    "pg": "^8.11.3",
+    "pg-hstore": "^2.3.4",
+    "postcss": "^8.4.33",
+    "sequelize": "^6.35.2",
+    "tailwindcss": "^3.4.1",
     "vue": "^3.2.13"
   },
   "devDependencies": {
@@ -39,5 +50,10 @@
     "last 2 versions",
     "not dead",
     "not ie 11"
-  ]
+  ],
+  "description": "## Project setup ``` npm install ```",
+  "main": "babel.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
