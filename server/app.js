@@ -5,7 +5,6 @@ import { Strategy as GitHubStrategy } from "passport-github";
 import { Strategy as GoogleStrategy } from "passport-google-oauth20";
 import session from "express-session";
 import dotenv from "dotenv";
-import { User, Category, Project, Task } from "./models.js";
 
 // 2. 初始化全局變數
 dotenv.config();
